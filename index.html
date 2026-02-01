@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <style>
+        /* Extra decoration hearts handled by CSS, but we can add more elements if needed */
+        .bg-heart {
+            position: absolute;
+            font-size: 2rem;
+            opacity: 0.15;
+            z-index: -1;
+            animation: floatBackground 12s infinite ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Background Hearts -->
+    <div class="bg-heart" style="top: 15%; left: 10%; animation-delay: 0s;">💖</div>
+    <div class="bg-heart" style="top: 70%; left: 20%; animation-delay: -2s; font-size: 3rem;">💘</div>
+    <div class="bg-heart" style="top: 30%; right: 15%; animation-delay: -4s; font-size: 2.5rem;">💝</div>
+    <div class="bg-heart" style="bottom: 10%; right: 10%; animation-delay: -6s;">❤️</div>
+    <div class="bg-heart" style="bottom: 20%; left: 5%; animation-delay: -8s; font-size: 1.5rem;">💕</div>
+
+    <div class="container">
+        <div class="gif-container">
+            <img id="mainImg" src="assets/ask_valentine.png" alt="Cute Bear" class="float-animation">
+        </div>
+        <h1 id="question">Will you be my Valentine?</h1>
+        <div class="buttons">
+            <button id="yesBtn" class="btn yes-btn">Yes</button>
+            <button id="noBtn" class="btn no-btn">No</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -11,8 +11,8 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     /* Complex animated gradient */
-    background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fad0c4, #ffd1ff, #fecfef);
-    background-size: 400% 400%;
+    background: linear-gradient(135deg, #ffebf0 0%, #ffc2d1 50%, #ffebf0 100%);
+    background-size: 200% 200%;
     animation: gradientBG 15s ease infinite;
     display: flex;
     justify-content: center;
@@ -27,16 +27,13 @@ body {
         background-position: 0% 50%;
     }
 
+    50% {
+        background-position: 100% 50%;
+    }
+
     100% {
         background-position: 0% 50%;
     }
-}
-
-background-position: 100% 50%;
-}
-
-100% {
-    background-position: 0% 50%;
 }
 
 /* Floating background hearts */

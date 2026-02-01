@@ -62,7 +62,7 @@ yesBtn.addEventListener('click', () => {
     }, 10);
 
     // 3. Change Text
-    question.innerHTML = 'Yay! I love you! <br> ❤️';
+    question.innerHTML = 'I LOVE YOU SOO MUCH MY MILK PILLOW! <br> ❤️';
     question.classList.add('success-text');
 
     // 4. Hide Buttons
